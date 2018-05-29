@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@import './assets/bootstrap.min.css';
+
+.app-spinner {
+  animation: rotation 1.5s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
